@@ -1,7 +1,7 @@
-import SingleUser from "@/dto/types";
+import SingleUserType from "@/dto/types";
 import React from "react";
 
-const SingleUser: React.FC<SingleUser> = ({ id, name, email, avatar }) => {
+const SingleUser: React.FC<SingleUserType> = ({ id, name, email, avatar }) => {
   return (
     <div className="border rounded-lg p-4 shadow-md">
       <img

@@ -1,8 +1,8 @@
-interface SingleUser {
+interface SingleUserType {
   id: number;
   name: string;
   email: string;
   avatar: string;
 }
 
-export default SingleUser;
+export default SingleUserType;
