@@ -1,14 +1,13 @@
 //DO THE USERS PAGE HERE AND THE MODAL TO ADD NEW USER ALSO HERE
 
+import SingleUser from "@/dto/types";
+
 interface AllUsersProps {
-  id: number;
-  name: string;
-  email: string;
-  avatar: string;
+  data: SingleUser[];
 }
 
-const AllUsers: React.FC<AllUsersProps> = () => {
-  return <div>
-    
-  </div>;
+const AllUsers: React.FC<AllUsersProps> = (data) => {
+
 };
+
+export default AllUsers
